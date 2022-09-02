@@ -8,8 +8,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
-  color: #212121;
+  color: #a7e4d4;
   line-height: 1.5;
+  background-color: #203744;
 }
 
 #search-box {
@@ -17,4 +18,33 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  background-color: #203744;
+  border-color: rgb(255, 255, 255);
+  color: inherit;
+  border-radius: 8px;
+}
+.country-list {
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.country-info {
+  align-items: center;
+  display: block;
+  margin-left: 16px;
+  width: max-content;
+}
+.input-el {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.country-flag {
+  align-items: center;
+  display: flex;
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
 }
